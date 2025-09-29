@@ -1,0 +1,11 @@
+{
+  "name": "screenshot-capture",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "capture": "node scripts/capture.js"
+  },
+  "dependencies": {
+    "playwright": "^1.46.0"
+  }
+}
