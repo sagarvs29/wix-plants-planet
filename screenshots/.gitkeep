@@ -1,0 +1,73 @@
+# 🎓 MCA @ VVCE (MCAVVCE)
+
+[![Live Site](https://img.shields.io/badge/Live%20Site-Wix-0b5fff?logo=wix&logoColor=white)](https://sagarsada29.wixsite.com/mcavvce)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-redirect-green?logo=github)](https://sagarvs29.github.io/wix-mcavvce-/)
+![Last Commit](https://img.shields.io/github/last-commit/sagarvs29/wix-mcavvce-?color=orange)
+
+Program landing for MCA @ VVCE with essentials for prospective students and visitors.  
+This repository hosts a simple GitHub Pages redirect and documentation (screenshots, links, and notes).
+
+## Quick view
+- Live: https://sagarsada29.wixsite.com/mcavvce  
+- Mirror (redirect): https://sagarvs29.github.io/wix-mcavvce-/
+
+<p align="left">
+  <img alt="Scan to open MCAVVCE" width="160" height="160" src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=https%3A%2F%2Fsagarsada29.wixsite.com%2Fmcavvce" />
+</p>
+
+## Highlights
+- Clear program overview and outcomes
+- Snapshot of curriculum/semester plan
+- Faculty and contacts at a glance
+- Events/announcements section to keep things fresh
+- Simple navigation designed for quick decision-making
+
+## Site map (adjust to match your pages)
+- [ ] Home — program summary, hero section
+- [ ] Admissions — requirements, timelines, CTAs
+- [ ] Curriculum — courses/semesters, downloadable syllabi
+- [ ] Faculty — profiles and contact info
+- [ ] Placements/Alumni — stories, stats
+- [ ] Events/News — updates and activities
+- [ ] Contact — map, form, email
+
+Replace each item with the actual page link when ready.
+
+## Screenshots
+Add images to ./screenshots and wire them below:
+
+| Page | Preview |
+|---|---|
+| Home | ![Home](./screenshots/home.png) |
+| Admissions | ![Admissions](./screenshots/admissions.png) |
+| Curriculum | ![Curriculum](./screenshots/curriculum.png) |
+| Faculty | ![Faculty](./screenshots/faculty.png) |
+
+> Pro tip: Include at least one long-page “scroll” screenshot for context.
+
+## How this repo works
+- index.html contains a 1-second meta refresh redirect to the live Wix site.
+- README.md documents structure and updates.
+- Optional folders you can add:
+  - ./media — logos, PDFs (e.g., syllabus)
+  - ./content — exported data (CSV) if you use Wix Content Manager
+  - ./custom-code — any header/body snippets (if added later)
+
+## Update playbook
+1) Update the Wix site.  
+2) Export new screenshots to ./screenshots.  
+3) Commit to main with a message like “docs: add curriculum overview shot.”  
+4) GitHub Pages keeps serving the redirect automatically.
+
+## FAQ
+- Why do we keep a GitHub repo for a Wix site?  
+  For versioned screenshots, assets, quick QR sharing, and a stable Pages URL that forwards to Wix.
+
+- Can we host the full site here?  
+  Wix doesn’t export the full visual layout. The redirect keeps the repo lightweight and current.
+
+## Changelog
+- 2025-09-29: Initial README + Pages redirect scaffold.
+
+## Feedback
+Open an issue in this repo or use the contact form on the live site.
