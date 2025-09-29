@@ -1,0 +1,3 @@
+node_modules/
+ms-playwright/
+playwright/.cache/
